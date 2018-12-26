@@ -6,7 +6,7 @@ app:
     links:
         - redis
     ports:
-        - "8000:8000"
+        - "7357:8000"
 
 redis:
     image: redis
